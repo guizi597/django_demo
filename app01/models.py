@@ -18,3 +18,4 @@ class UserInfo(models.Model):
     city = models.CharField(verbose_name='城市',max_length=64)
     country = models.CharField(verbose_name='国家',max_length=64)
     girlfriend = models.CharField(verbose_name='女朋友',max_length=64)
+    boyfriend = models.CharField(verbose_name='男朋友', max_length=64)

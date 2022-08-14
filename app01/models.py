@@ -14,3 +14,5 @@ class UserInfo(models.Model):
     age = models.IntegerField(verbose_name='年龄')
     account = models.DecimalField(verbose_name='账户余额',max_digits=10,decimal_places=2,default=0)
     create_time = models.DateTimeField(verbose_name='入职时间')
+
+    city = models.CharField(verbose_name='城市',max_length=64)

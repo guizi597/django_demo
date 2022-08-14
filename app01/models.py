@@ -16,3 +16,4 @@ class UserInfo(models.Model):
     create_time = models.DateTimeField(verbose_name='入职时间')
 
     city = models.CharField(verbose_name='城市',max_length=64)
+    country = models.CharField(verbose_name='国家',max_length=64)

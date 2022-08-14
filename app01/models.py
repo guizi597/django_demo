@@ -20,3 +20,4 @@ class UserInfo(models.Model):
     girlfriend = models.CharField(verbose_name='女朋友',max_length=64)
     master_test = models.CharField(verbose_name='测试',max_length=64)
 
+    boyfriend = models.CharField(verbose_name='男朋友', max_length=64)

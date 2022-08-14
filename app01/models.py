@@ -21,3 +21,5 @@ class UserInfo(models.Model):
     master_test = models.CharField(verbose_name='测试',max_length=64)
 
     boyfriend = models.CharField(verbose_name='男朋友', max_length=64)
+
+    github_test = models.CharField(verbose_name='github测试', max_length=64)
